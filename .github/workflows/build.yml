@@ -33,8 +33,8 @@ jobs:
 
       - name: prep
       - run: |
-        regsvr32 "%VSINSTALLDIR%\DIA SDK\bin\msdia140.dll"
-        regsvr32 "%VSINSTALLDIR%\DIA SDK\bin\amd64\msdia140.dll"
+          regsvr32 "%VSINSTALLDIR%\DIA SDK\bin\msdia140.dll"
+          regsvr32 "%VSINSTALLDIR%\DIA SDK\bin\amd64\msdia140.dll"
       
       - name: Checkout llvm
         uses: actions/checkout@v2
